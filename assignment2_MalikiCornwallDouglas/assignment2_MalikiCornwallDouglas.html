@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NovaFlow Studios | assignment2_MalikiCornwallDouglas</title>
+  <link rel="stylesheet" href="assignment2_MalikiCornwallDouglas.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__logo">Nova<span>Flow</span></div>
+    <ul class="nav__links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#showcase">Showcase</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero">
+    <div class="hero__content">
+      <h1 class="hero__title slide-down">Launch smoother digital experiences.</h1>
+      <p class="hero__subtitle fade-in-delay">
+        NovaFlow Studios helps brands build fast, responsive, and beautiful
+        landing pages that actually convert.
+      </p>
+      <div class="hero__actions fade-in-delay">
+        <a href="#pricing" class="btn btn--primary">Start a free trial</a>
+        <a href="#showcase" class="btn btn--ghost">View examples</a>
+      </div>
+      <p class="hero__note pulse">
+        No code. No stress. Just clean, responsive design.
+      </p>
+    </div>
+
+    <div class="hero__visual">
+      <div class="hero__card float">
+        <h2>Live Analytics</h2>
+        <p>See visitors, clicks, and sign‑ups in real time.</p>
+        <div class="hero__pill hero__pill--green">+128% Conversions</div>
+      </div>
+
+      <div class="hero__card hero__card--secondary float-delay">
+        <h2>Auto Layout</h2>
+        <p>Responsive grids that adapt to every screen size.</p>
+        <div class="hero__pill hero__pill--blue">Mobile‑first</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features -->
+  <section id="features" class="section section--alt">
+    <div class="section__header">
+      <h2>Why teams choose NovaFlow</h2>
+      <p>Animations that feel smooth, not distracting.</p>
+    </div>
+
+    <div class="grid grid--3">
+      <article class="feature-card fade-up">
+        <h3>Micro‑interactions</h3>
+        <p>
+          Buttons, links, and cards use subtle hover animations so users always
+          know what they can click.
+        </p>
+      </article>
+      <article class="feature-card fade-up delay-1">
+        <h3>Smart breakpoints</h3>
+        <p>
+          Built with mobile, tablet, and desktop breakpoints so your layout
+          never breaks on small screens.
+        </p>
+      </article>
+      <article class="feature-card fade-up delay-2">
+        <h3>Performance‑first</h3>
+        <p>
+          No heavy libraries. Just clean HTML, CSS animations, and a little
+          JavaScript for scroll effects.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Showcase -->
+  <section id="showcase" class="section">
+    <div class="section__header">
+      <h2>Built to look good everywhere</h2>
+      <p>
+        Resize the browser to see how the layout responds across devices.
+      </p>
+    </div>
+
+    <div class="showcase">
+      <div class="showcase__device showcase__device--desktop fade-up">
+        <h3>Desktop</h3>
+        <p>Multi‑column content with breathing room and animation.</p>
+      </div>
+      <div class="showcase__device showcase__device--tablet fade-up delay-1">
+        <h3>Tablet</h3>
+        <p>Stacked layout with balanced typography and spacing.</p>
+      </div>
+      <div class="showcase__device showcase__device--mobile fade-up delay-2">
+        <h3>Mobile</h3>
+        <p>Single‑column, thumb‑friendly CTAs, and large tap targets.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="section section--alt">
+    <div class="section__header">
+      <h2>Simple, transparent pricing</h2>
+      <p>Start small. Scale when you’re ready.</p>
+    </div>
+
+    <div class="grid grid--3 pricing">
+      <article class="price-card fade-up">
+        <h3>Starter</h3>
+        <p class="price-card__price">$0</p>
+        <p class="price-card__tagline">Perfect for testing ideas.</p>
+        <ul>
+          <li>1 landing page</li>
+          <li>Basic animations</li>
+          <li>Email support</li>
+        </ul>
+        <button class="btn btn--ghost">Try Starter</button>
+      </article>
+
+      <article class="price-card price-card--highlight fade-up delay-1">
+        <div class="price-card__badge">Most popular</div>
+        <h3>Growth</h3>
+        <p class="price-card__price">$29</p>
+        <p class="price-card__tagline">For small teams and creators.</p>
+        <ul>
+          <li>Unlimited pages</li>
+          <li>Advanced animations</li>
+          <li>Analytics dashboard</li>
+        </ul>
+        <button class="btn btn--primary">Choose Growth</button>
+      </article>
+
+      <article class="price-card fade-up delay-2">
+        <h3>Enterprise</h3>
+        <p class="price-card__price">Let’s talk</p>
+        <p class="price-card__tagline">Custom solutions at scale.</p>
+        <ul>
+          <li>Dedicated support</li>
+          <li>Custom integrations</li>
+          <li>Training & onboarding</li>
+        </ul>
+        <button class="btn btn--ghost">Contact sales</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact / CTA -->
+  <section id="contact" class="section section--cta">
+    <div class="section__header">
+      <h2>Ready to launch something clean?</h2>
+      <p>Drop your email and we’ll send a launch checklist.</p>
+    </div>
+    <form class="cta-form fade-up">
+      <label class="sr-only" for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        placeholder="you@example.com"
+        required
+      />
+      <button type="submit" class="btn btn--primary">Get checklist</button>
+    </form>
+    <p class="cta-note">
+      No spam. Just launch tips and design ideas.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 NovaFlow Studios. Built for Assignment 2.</p>
+  </footer>
+
+  <script src="assignment2_MalikiCornwallDouglas.js"></script>
+</body>
+</html>
